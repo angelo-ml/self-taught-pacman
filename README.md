@@ -4,7 +4,7 @@ This algorithm implements reinforcement learning DQN technique to learn how to p
 Deep Q-Network (DQN) combines a neural network, with the idea behind Q-learning, where an agent passes through different states multiple times, using and updating a Q-value function, which provides the rewards of different actions for each state. Each time the agent takes an action from a specific state and it receives its reward (or punishment), it updates the Q-value
 function, using the bellman equation.
 
-More detail regarding the neural network used, the other optimization techniques implemented and the final results, are in the pdf file "project-report".
+More details regarding the neural network used, the other optimization techniques implemented and the final results, are in the pdf file "project-report".
 
 ## Repository Files:
 * train_pacman: trains the DQN model to play Ms. Pac-Man, collecting data from 10000 episodes.
