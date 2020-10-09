@@ -13,5 +13,5 @@ More details regarding the neural network used, the other optimization technique
 * last-episode.mp4: recorded video of the last testing episode
 
 
-![Ms. Pac-Man Last Testing Episode](https://imagehost.imageupload.net/2020/05/29/pacman-last-episode.png)
+![Ms. Pac-Man Last Testing Episode](https://anjelo.ml/github-images/self-taught-pacman/pacman-last-episode.png)
 
