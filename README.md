@@ -14,6 +14,8 @@ More details regarding the optimization techniques implemented and the final res
 
 In this case the agent is trained based on a CNN that uses as data game's image frames (RGB 210x160px images). The input to the neural network consists of an 210x160x3 image. The first hidden layer convolves 32 filters of 8x8 with stride 4 with the input image and applies a rectifier nonlinearity. The second hidden layer convolves 64 filters of 4x4 with stride 2, again followed by a rectifier nonlinearity. This is followed by a third convolutional layer that convolves 64 filters of 3x3 with stride 1 followed by a rectifier. The final hidden layer is fully-connected and consists of 512 rectifier units. The output layer is a fully-connected linear layer with a single output for each valid action.
 
+![Ms. Pac-Man Last Testing Episode](https://anjelo.ml/github-images/self-taught-pacman/cnn-architecture.png)
+
 ## Training the model using game's RAM state
 
 Here, the RAM state is represented by an array of 128 integers between 0 and 255. The Neural network is consisted by three hidden fully-connected linear layers with 512, 512 and 128 rectifier units. Similarly with the CNN, the output layer is a fully-connected linear layer with a single output for each valid action.
